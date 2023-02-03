@@ -387,3 +387,41 @@ border-radius: 10vh;
     background-color: #FFEA20;
     border-radius: 10vh;
 }
+
+@media(max-width:800px){
+    nav{
+        flex-direction: column;
+        width: 100%;
+        background-color:#FFEA20;
+    }
+.main{
+    flex-direction: column;
+}
+.left{
+    width: 100%;
+}
+.right{
+    width: 100%;
+}
+.cards{
+    flex-direction: column;
+}
+
+.main1{
+    flex-direction: column;
+}
+.left1{
+display: none;}
+.right1{
+    width: 100%;
+}
+.main2{
+    flex-direction: column;
+}
+.left2{
+    width: 100%;
+}
+.right2{
+display: none;}
+
+}
